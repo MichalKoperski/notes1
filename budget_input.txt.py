@@ -5,7 +5,7 @@ import calendar
 from datetime import date
 
 var = {}
-with open("zzz.txt") as conf:
+with open("costs.txt") as conf:
     for line in conf:
         if "=" in line:
             name, value = line.split(" = ")
