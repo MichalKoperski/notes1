@@ -3,20 +3,6 @@ from rich.table import Table
 from rich import print as rprint
 import calendar
 from datetime import date
-from datetime import timedelta
-import tkinter
-
-window = tkinter.Tk()
-
-# to rename the title of the window window.title("GUI")
-l1 = Label(window, text="edureka!“ font=("Arial Bold", 50))
-
-l1.grid(column=0, row=0)
-# pack is used to show the object in the window
-
-label = tkinter.Label(window, text="Hello World!").pack()
-
-window.mainloop()
 
 
 czynsz = 1264.89
@@ -134,11 +120,6 @@ for row in rows:
 
 Console().print(table)
 
-fertility1 = date.fromisoformat("2021-12-27") + timedelta(days=14)
-while fertility1 < date.today():
-    fertility1 += timedelta(days=28)
-fertility2 = fertility1 + timedelta(days=28)
-rprint("Fertility:", fertility1, "", fertility2)
 
 
 
