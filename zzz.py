@@ -19,7 +19,7 @@ label = tkinter.Label(window, text="Hello World!").pack()
 window.mainloop()
 
 
-czynsz = 1261.89
+czynsz = 1264.89
 D13 = 91.74
 D14 = 91.74
 piwnica = 13.97
