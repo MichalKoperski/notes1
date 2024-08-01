@@ -42,7 +42,7 @@ canal = 198
 disney = 290
 tvn24 = 100
 
-pensja = 7762.45
+pensja = 770062.45
 
 moneyStart = input("How much cash: ")
 if len(moneyStart) == 0:
