@@ -134,4 +134,3 @@ if not(temp >= 0 and temp <= 30):
     print("bad")
 elif not(temp < 0 or temp > 30):
     print("good")
-
